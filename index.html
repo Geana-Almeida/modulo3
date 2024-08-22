@@ -54,34 +54,10 @@
             </article>
         </section>
 
-        <section id="about" class="about">
+        <section id="about" class="flex about">
 
-            <!-- Foto do Perfil do Github -->
-            <img src="assets/img/user_01.svg" alt="Foto do Perfil do Github" width="450px">
-
-            <!-- Texto Sobre você -->
-            <article id="sobre_texto">
-
-                <h1>Sobre mim</h1>
-
-                <p>
-                    Lorem ipsum dolor sit amet, consectetur adipisicing elit.
-                    Quibusdam odit voluptates incidunt inventore rem error harum
-                    blanditiis accusamus vitae, minus fugit consequatur?
-                    Dolorum maiores magni deleniti modi sit laudantium totam!
-                </p>
-
-                <!-- Informações do Github -->
-                <div id="sobre_github">
-
-                    <a target="_blank" href="https://github.com/conteudoGeneration">Github</a>
-                    <p>200 Seguidores</p>
-                    <p>100 Repositórios</p>
-
-                </div>
-
-            </article>
-
+            
+            
         </section>
 
         <section id="contact" class="contato_conteiner">
@@ -107,10 +83,13 @@
 
             </article>
 
-            <form action="" method="POST">
+            <form action="https://formsubmit.co/linch2000@hotmail.co" method="POST">
+
+                <input type="hidden" name="_next" value="./sucess.html">
+                <input type="hidden" name="_captcha" value="false">
 
                 <!-- Definição: Rótulo associado a um elemento de formulário, como uma caixa de texto.
-                                            Função: O atributo for associa o rótulo a um elemento específico pelo seu id, facilitando a navegação para usuários de leitores de tela. -->
+                Função: O atributo for associa o rótulo a um elemento específico pelo seu id, facilitando a navegação para usuários de leitores de tela. -->
                 <label for="name">Nome: </label>
                 <input id="name" type="text" name="name" placeholder="Digite seu nome">
                 <span id="txtNome"></span>
@@ -134,9 +113,11 @@
 
     </main>
 
-    <footer>
+    <footer class="flex footer">
         <p>Feito com 🧡 por Generation Brasil - 2024</p>
     </footer>
+
+    <script src="./assets/js/script.js"></script>
 
 </body>
 </html>
